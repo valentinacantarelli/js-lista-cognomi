@@ -17,3 +17,9 @@ listaCognomi.sort();
 console.log(listaCognomi + " " + "in ordine alfabetico");
 
 console.log( listaCognomi.indexOf(cognomeUtente)+1);
+
+for( var i= 0; i < listaCognomi; i++){
+    var li =document.createElement("li");
+    li.textContent=listaCognomi[i];
+    document.getElementById("elenco").appendChild(li);
+}

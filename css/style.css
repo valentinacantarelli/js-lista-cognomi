@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightyellow;
+    font-family: 'Alex Brush', cursive;
+    position: relative;
+}    
+.copertina{
+    background-color: lightgreen;
+    width: 150px;
+    height: 100vh;
+    top: 0;
+    left: 0;  
+    position: absolute;  
+}
+.registro{
+    margin-left: 190px;    
+    height: 100vh;
+    width: 1300px;
+    position: absolute;
+    border-left: 1px solid rgb(211, 47, 47);
+}
+h2{
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(12, 12, 165);
+}
+li{
+    list-style: none;
+}
