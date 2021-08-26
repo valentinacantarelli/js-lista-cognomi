@@ -15,4 +15,5 @@ console.log("lista cognomi con cognome utente"+ " " + listaCognomi);
 listaCognomi.sort();
 
 console.log(listaCognomi + " " + "in ordine alfabetico");
+
 console.log( listaCognomi.indexOf(cognomeUtente)+1);
