@@ -5,12 +5,14 @@
 
 
 var listaCognomi = ["Bianchi", "Gialli","Rossi","Neri","Verdi"].map(v => v.toLowerCase());
+console.log("lista originale" + " " + listaCognomi);
 
 var cognomeUtente = prompt("Ciao! Inserisci il tuo cognome");
 
 listaCognomi.push(cognomeUtente);
-console.log(listaCognomi);
+console.log("lista cognomi con cognome utente"+ " " + listaCognomi);
 
 listaCognomi.sort();
 
 console.log(listaCognomi + " " + "in ordine alfabetico");
+console.log( listaCognomi.indexOf(cognomeUtente)+1);
